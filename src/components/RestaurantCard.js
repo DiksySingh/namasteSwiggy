@@ -6,12 +6,14 @@ const RestaurantCard = (props) => {
     //console.log(props.resData.title);
     //console.log(resData);
     return (
-        <div className='res-card' style={{backgroundColor: 'lightgray'}}>
+        <div className='res-card'>
             <img className='res-logo' src={RES_LOGO + props.resData.cloudinaryImageId}/>
-            <h3>{props.resData.name}</h3>
-            <h4>{props.resData.costForTwo} For Two</h4>
-            <h4>{props.resData.avgRating} stars</h4>
-            <h4>{props.resData.cuisines.join(", ")}</h4>
+            <h4 className="res-title">{props.resData.name}</h4>
+            <div className="res-cost-avg">
+                <h5>{props.resData.costForTwo}</h5>
+                <h5>{props.resData.avgRating} stars</h5>
+            </div>
+            <h5>{props.resData.cuisines.join(", ")}</h5>
         </div>
     );
 }

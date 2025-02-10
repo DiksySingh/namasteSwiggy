@@ -35,11 +35,13 @@
 }
 
 .res-card {
+    background-color: rgb(236, 235, 219);
     margin: 5px;
     padding: 5px;
     height: 350px;
     width: 200px; 
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .res-card:hover {
@@ -51,6 +53,15 @@
     object-fit: cover;
     height: 40%;
     width: 100%;
+}
+
+.res-cost-avg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-cost-avg > h5 {
+    margin-right: 10px;
 }
 
 .shimmer-container {
