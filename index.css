@@ -1,0 +1,89 @@
+.app {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items > ul {
+    display: flex;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+
+.nav-items > ul > li {
+    padding: 0px 15px;
+} 
+
+.body {
+    border: 1px solid black;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    height: 350px;
+    width: 200px; 
+    overflow: hidden;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-logo {
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shimmer-card {
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.login-btn {
+    padding: 5px;
+    width: 100px;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.search-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.search-input {
+    margin-right: 20px;
+}
+
+.search {
+    margin-right: 10px;
+}
